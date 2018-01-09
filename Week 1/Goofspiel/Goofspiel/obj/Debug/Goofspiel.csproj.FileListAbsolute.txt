@@ -22,3 +22,11 @@ C:\Users\KEV\Desktop\Goofspiel\Goofspiel\obj\Debug\Goofspiel.Properties.Resource
 C:\Users\KEV\Desktop\Goofspiel\Goofspiel\obj\Debug\Goofspiel.csproj.GenerateResource.Cache
 C:\Users\KEV\Desktop\Goofspiel\Goofspiel\bin\Debug\Goofspiel.exe
 C:\Users\KEV\Desktop\Goofspiel\Goofspiel\bin\Debug\Goofspiel.pdb
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40168766\GitHub\ComputationalIntelligence\Week 1\Goofspiel\Goofspiel\obj\Debug\Goofspiel.exe
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40168766\GitHub\ComputationalIntelligence\Week 1\Goofspiel\Goofspiel\obj\Debug\Goofspiel.pdb
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40168766\GitHub\ComputationalIntelligence\Week 1\Goofspiel\Goofspiel\bin\Debug\Goofspiel.exe
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40168766\GitHub\ComputationalIntelligence\Week 1\Goofspiel\Goofspiel\bin\Debug\Goofspiel.pdb
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40168766\GitHub\ComputationalIntelligence\Week 1\Goofspiel\Goofspiel\obj\Debug\Goofspiel.csprojResolveAssemblyReference.cache
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40168766\GitHub\ComputationalIntelligence\Week 1\Goofspiel\Goofspiel\obj\Debug\Goofspiel.Goofspiel.resources
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40168766\GitHub\ComputationalIntelligence\Week 1\Goofspiel\Goofspiel\obj\Debug\Goofspiel.Properties.Resources.resources
+\\napier-mail.napier.ac.uk\students\School of Computing\User Data\40168766\GitHub\ComputationalIntelligence\Week 1\Goofspiel\Goofspiel\obj\Debug\Goofspiel.csproj.GenerateResource.Cache

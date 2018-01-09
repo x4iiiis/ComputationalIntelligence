@@ -74,12 +74,57 @@ namespace Goofspiel
             // The loop stops when the random card selected is one that has not already been chosen
             // (its not very efficient but speed doesn't really matter here
 
+            //Original:
+            //while (cardPlayed)
+            //{
+            //    chosen = computerRandom.Next(13);   // pick a random card
+            //    cardPlayed = playedCards[chosen];
+            //
+            //}
+
+            
+            
+            //R// Match the card
+            //chosen = upturnedCardValue - 1;
+            //cardPlayed = playedCards[chosen];
+
+
+            //R// Bid highest available card for 7+, lowest available for 6- 
             while (cardPlayed)
             {
-                chosen = computerRandom.Next(13);   // pick a random card
+                int highest = 0;
+                int lowest = 0;
+                //Get highest available card
+                for (int i = 0; i < playedCards.Length; i++)
+                {
+                    if (playedCards[i] == false)
+                    {
+                        highest = i;
+                    }
+                }
+                //Get lowest available card
+                for (int i = 0; i < playedCards.Length; i++)
+                {
+                    if (playedCards[i] == false)
+                    {
+                        lowest = i;
+                        break;
+                    }
+                }
+                //Play highest available card if 7+
+                if ((upturnedCardValue - 1) > 6)
+                {
+                    chosen = highest;
+                }
+                else
+                {
+                    chosen = lowest;
+                }
+                //Play the selected card
                 cardPlayed = playedCards[chosen];
-
             }
+
+
 
             /******************************************************************************
              * *  END modifications
@@ -178,6 +223,8 @@ namespace Goofspiel
 
         private void startButton_Click(object sender, EventArgs e)
         {
+            Deck.Clear();
+
             // create a random order to the cards to be revealed
             getPermutation();
             
